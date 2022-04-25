@@ -52,4 +52,5 @@ The p-value for each t-test can be viewed above. From these results, and an assu
 In comparing MechaCar to competitors, an important metric that a consumer may be interested in is fuel efficiency. In testing this metric, the following hypothesis can be considered:
 - null hypothesis: MechaCar has better fuel efficiency than competetors.
 - alternative hypothesis: MechaCar does not have better fuel efficiency than competetors.
+
 In order to test the hypothesis, a two-sample t-test may be used, since it determines statistical difference between two samples, such as the data of MechaCar's fuel efficiency sample and the Competitor's fuel efficiency sample.
