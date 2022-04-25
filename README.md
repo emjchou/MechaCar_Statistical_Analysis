@@ -26,13 +26,21 @@ Based on design specs, the variance of the suspension coils must not exceed 100l
 
 ## T-Tests on Suspension Coils
 T-test across all Manufacturing Lots:
+
 ![t-test for all lots](Images/ttest_allLots.PNG)
+
 T-test for Lot 1:
+
 ![t-test for lot 1](Images/ttest_Lot1.PNG)
+
 T-test for Lot 2:
+
 ![t-test for lot 2](Images/ttest_Lot2.PNG)
+
 T-test for Lot 3:
+
 ![t-test for lot 3](Images/ttest_Lot3.PNG)
+
 
 The p-value for each t-test can be viewed above. From these results, and an assumed significance level of 0.05, the following interpretations for the t-tests can be determined:
 - PSI across all lots is statistically similiar since p-value = 0.06 is greater than the significance level.
