@@ -25,12 +25,17 @@ Summary by Lot for suspension coil's PSI:
 Based on design specs, the variance of the suspension coils must not exceed 100lbs/sq.inch. In viewing the summary tables above, it seems that the Variance for the PSI overall meets this design specification for all manufacturing lots in total. This is not true, however, for each individual manufacturing lot, as the Lot summary shows that Lot3 PSI has a variance of 170.3, which exceeds the design specifications. 
 
 ## T-Tests on Suspension Coils
-
+T-test across all Manufacturing Lots:
 ![t-test for all lots](Images/ttest_allLots.PNG)
-
+T-test for Lot 1:
 ![t-test for lot 1](Images/ttest_Lot1.PNG)
-
+T-test for Lot 2:
 ![t-test for lot 2](Images/ttest_Lot2.PNG)
-
+T-test for Lot 3:
 ![t-test for lot 3](Images/ttest_Lot3.PNG)
 
+The p-value for each t-test can be viewed above. From these results, and an assumed significance level of 0.05, the following interpretations for the t-tests can be determined:
+- PSI across all lots is statistically similiar since p-value = 0.06 is greater than the significance level.
+- PSI for Lot1 is statistically similiar since p-value = 1 is greater than the significance level.
+- PSI for Lot2 is statistically similiar since p-value = 0.61 is greater than the significance level.
+- PSI for Lot3 is statistically different since p-value = 0.04 is lesser than the significance level.
